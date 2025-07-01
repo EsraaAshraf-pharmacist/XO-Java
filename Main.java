@@ -67,7 +67,7 @@ public class Main {
                    mat[row][col] = turn;
                 else {
                   System.out.println("Please play valid place");
-                  --i;
+                  --i;      //To stay in the same turn
                   continue;
 
            }
